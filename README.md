@@ -37,15 +37,15 @@ In order to clone the github repository, use the following command in your machi
 ``git clone https://github.com/The-Mad-Ryanosaurus/Gesture-Machine-Learning.git``<br>
 This link can be found in the code button at the top of this page under the HTTPS tab.
 
-### **Step 2: Install Project Dependencies:**
+### **Step 2: Anaconda Setup:**
 
-Open the Anaconda Prompt (Miniconda3) terminal input the following, step by step:
+Open the Anaconda Prompt (Miniconda3) terminal and input the following, step by step:
 
 1. ``conda create -n py310 python=3.10``
 2. ``conda activate py310``
 3. ``conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0``
 4. ``python -m pip install "tensorflow==2.10"``
-5. ``python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"``
+5. ``python -c "import tensorflow as tf;``
 
 ### **Step 3: Open Project in Visual Studio Code:**
 
