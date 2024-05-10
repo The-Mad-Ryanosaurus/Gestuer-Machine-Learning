@@ -13,9 +13,6 @@ This repository features a Jupyter Notebook that explores Convolutional Neural N
 ### **Jupyter Notebook Overview**
 
 - **Project Notebook:** This notebook provides a practical exploration of training and evaluating CNNs to accurately recognize human hand gestures using a smaller dataset extracted from the [HaGRID - HAnd Gesture Recognition Image Dataset](https://github.com/hukenovs/hagrid).
-### **Binder**
-For those interested in experiencing this project without the need for local installation, it is accessible via the following link on Google Colab:
-- **SETUP GOOGLE COLAB** <br>
 
 ### **Installation Setup Guide**
 
