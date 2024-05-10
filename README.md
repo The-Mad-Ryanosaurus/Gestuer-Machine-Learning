@@ -45,10 +45,13 @@ Open the Anaconda Prompt (Miniconda3) terminal and input the following, step by 
 2. ``conda activate py310``
 3. ``conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0``
 4. ``python -m pip install "tensorflow==2.10"``
-5. ``python -c "import tensorflow as tf;``
+5. ``python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"``<br>
+Once those commands have been input you should see something like the following output in your Anaconda terminal:<br>
+**[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]**<br>
+
 
 ### **Step 3: Open Project in Visual Studio Code:**
 
 Where you cloned the repository, enter the projects directory and do the following:<br>
-1. `code.`
+1. `code .`
 This will open the project in Visual Studio Code and you will be able to access the project.
