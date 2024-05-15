@@ -163,3 +163,7 @@ dataset/
 myImages/
 savedDataset/
 savedGrayDataset/
+savedDatasetShallowRGB/
+savedDatasetShallowGrayscale/
+savedDatasetDeepRGB/
+savedDatasetDeepGrayscale/
