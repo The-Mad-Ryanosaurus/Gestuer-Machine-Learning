@@ -167,3 +167,5 @@ savedDatasetShallowRGB/
 savedDatasetShallowGrayscale/
 savedDatasetDeepRGB/
 savedDatasetDeepGrayscale/
+savedDatasetShallowHR/
+savedDatasetDeepHR/
