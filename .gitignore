@@ -170,3 +170,7 @@ savedDatasetDeepGrayscale/
 savedDatasetShallowHR/
 savedDatasetDeepHR/
 savedDatasetTLVGG16/
+h5/tl_vgg16_model_shallow.h5
+h5/tl_vgg16_model_fine_tuned.h5
+json/tl_vgg16_model_shallow.json
+json/tl_vgg16_model_vgg16_fine_tuned.json
